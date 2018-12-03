@@ -1,51 +1,162 @@
-# Terminal
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<base href="index.html">
+		<meta charset="UTF-8">
+		<meta name="description" content="Cheat sheet for terminal linux">
+		<img src="image/logoterminal.png" width="15%" height="15%" alt="logo terminal">
+		<link rel="icon" href="image/favicon.ico" />
+		<title>Terminal cheat sheet</title>
+	</head>
+	<body id="top">
+		<header>	
+			<h1> Terminal  linux </h1>
+			<nav>
+				<ul>
+					<a href="contact.html"> Contact </a>
+				</ul>
+			</nav><hr />
+		</header>
+		<main>
+		<section>
+			<article>
+				<ul>
+					<li><p><code>ls</code> = list</p></li>
 
-`ls` = list
- * `-a` = show hidden files
- * `-l` = detail files
- * `-r` = recursive
+					<ul>
+						<li><p><code>-a</code> = show hidden files</p></li>
+						<li><p><code>-l</code> = detail files</p></li>
+						<li><p><code>-r</code> = recursive</p></li>
+					</ul>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p><code>cp</code> = copy</p></li>
 
-`cp` = copy
- * `-f` = force
- * `-r` = recursive
- * `-u` = copy if SOURCE file is newer than the destination
- * `-a` = keeps the same rights
+					<ul>
+						<li><p><code>-f</code> = force</p></li>
+						<li><p><code>-r</code> = recursive</p></li>
+						<li><p><code>-u</code> = copy if SOURCE file is newer than the destination</p></li>
+						<li><p><code>-a</code> = keeps the same rights</p></li>
+					</ul>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p><code>mv</code> = move</p></li>
 
-`mv` = move
- * `-backup` = make a backup of each existing destination file 
- * `-u` = move if SOURCE file is newer than the destination
+					<ul>
+						<li><p><code>-backup</code> = make a backup of each existing destination file</p></li> 
+						<li><p><code>-u</code> = move if SOURCE file is newer than the destination</p></li>
+					</ul>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p><code>rm</code> = remove</p></li>
 
-`rm` = remove
- * `-r` = recursive
- * `-f` = force
- * `-d` remove empty directories -p Deletes parent directories if they become empty
+					<ul>
+						<li><p><code>-r</code> = recursive</p></li>
+						<li><p><code>-f</code> = force</p></li>
+						<li><p><code>-d</code> remove empty directories -p Deletes parent directories if they become empty</p></li>
+					</ul>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p><code>mk</code> = make</p></li>
 
-`mk` = make
- * `dir` = make directory
- * `-p` = creates parent directories if they dont exist
+					<ul>
+						<li><p><code>dir</code> = make directory</p></li>
+						<li><p><code>-p</code> = creates parent directories if they dont exist</p></li>
+					</ul>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p><code>cd</code> = change directory</p></li>
 
-`cd` = change directory
- * `-` = return last dir
- * `..` = parent file
- * `...` = parent of parent file..
+					<ul>
+						<li><p><code>-</code> = return last dir</p></li>
+						<li><p><code>..</code> = parent file</p></li>
+						<li><p><code>...</code> = parent of parent file..</p></li>
+					</ul>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p><code>ln</code> = link</p></li>
 
-`ln` = link
- * `-s` = symbolic
- * `-f` = force and overwrites if it exits
- * `-d` = link on directory ( only in root )
+					<ul>
+						<li><p><code>-s</code> = symbolic</p></li>
+						<li><p><code>-f</code> = force and overwrites if it exits</p></li>
+						<li><p><code>-d</code> = link on directory ( only in root )</p></li>
+					</ul>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p><code>find</code> (natif recursive)</p></li>
 
-`find` (natif recursive)
- * `-(i)name` = search by name (i for indifferent to the casse)
- * `-type` = search by type
- * `-link` = searching for the number of links to the file
- * `-exec` = executes the command given to the found files
+					<ul>
+						<li><p><code>-(i)name</code> = search by name (i for indifferent to the casse)</p></li>
+						<li><p><code>-type</code> = search by type</p></li>
+						<li><p><code>-link</code> = searching for the number of links to the file</p></li>
+						<li><p><code>-exec</code> = executes the command given to the found files</p></li>
+					</ul>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p></p><code>man</code> = manual</p></li>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p></p><code>pwd</code> = print working directory</p></li>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p></p><code>grep</code> = Searches for a character string in files</p></li> 
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p></p><code>cat</code> = concatenate</p></li>
+				</ul>
+			</article>
+			<article>
+				<ul>
+					<li><p></p><code>chmod</code> = change mode</p></li>
+				</ul>
+			</article>
+		</main>
+		<footer>
+			<section>
+				<article>
+					<a href="#top">
+						<img src="image/arrowup.png" width="40px" height="40px" alt="arrow up">
+					</a>
+				</article>
 
-`man` = manual
+				<article>
+					<a href="https://github.com/yatoogamii" target="_blank"> 
+						<img src="image/logogithub.jpeg" width="80px" height="50px" alt="logo github">
+					</a>
+					<a href="https://twitter.com/BracavalE" target="_blank">
+						<img src="image/logotwitter.png" width="50px" height="50px" alt="logo twitter">
+					</a>
+					<a href="https://www.linkedin.com/in/elias-bracaval-517678174/" target="_blank">
+						<img src="image/logolinkedin.png" width="55px" height="50px" alt="logo linkedin">
+					</a>
+				</article>
 
-`pwd` = print working directory
-
-`grep` = Searches for a character string in files 
-
-`cat` = concatenate
-
-`chmod` = change mode
+				<article>
+					<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+				</article>
+			</section>
+		</footer>
+	</body>
+</html>
